@@ -1,0 +1,18 @@
+﻿.ui-datepicker
+{
+	font-size:12px !important;
+}
+
+.custom-tooltip-styling
+{
+	font-size:11px !important;	
+	border: 1px solid #cd0a0a !important;
+	background: #fef1ec url(../../images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x !important;
+	color: #cd0a0a !important;
+}
+
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 11px/*{fsDefault}*/;
+}
+

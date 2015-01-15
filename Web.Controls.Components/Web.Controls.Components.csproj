@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{889A368A-85B4-4D2B-BFE5-E02A27A9FE46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web.Controls.Components</RootNamespace>
+    <AssemblyName>Web.Controls.Components</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjaxEventArgument.cs" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WNumberBox.cs" />
+    <Compile Include="EventAjax.cs" />
+    <Compile Include="WButton.cs" />
+    <Compile Include="WAccordion.cs" />
+    <Compile Include="EventListener.cs" />
+    <Compile Include="TabItem.cs" />
+    <Compile Include="WGrid.cs" />
+    <Compile Include="IWControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WCheckBox.cs" />
+    <Compile Include="WCheckBoxList.cs" />
+    <Compile Include="WDropDownList.cs" />
+    <Compile Include="WLabel.cs" />
+    <Compile Include="WRadioButtonList.cs" />
+    <Compile Include="WTab.cs" />
+    <Compile Include="WTextBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="css\geral.css" />
+    <EmbeddedResource Include="script\geral.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="css\geral-ie.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\erro.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\btnAnteriorAtivo.gif" />
+    <EmbeddedResource Include="images\btnAnteriorAtivo.png" />
+    <EmbeddedResource Include="images\btnAnteriorInativo.gif" />
+    <EmbeddedResource Include="images\btnAnteriorInativo.png" />
+    <EmbeddedResource Include="images\btnAtualizar.gif" />
+    <EmbeddedResource Include="images\btnPrimeiroAtivo.gif" />
+    <EmbeddedResource Include="images\btnPrimeiroAtivo.png" />
+    <EmbeddedResource Include="images\btnPrimeiroInativo.gif" />
+    <EmbeddedResource Include="images\btnPrimeiroInativo.png" />
+    <EmbeddedResource Include="images\btnProximoAtivo.gif" />
+    <EmbeddedResource Include="images\btnProximoAtivo.png" />
+    <EmbeddedResource Include="images\btnProximoInativo.gif" />
+    <EmbeddedResource Include="images\btnUltimoAtivo.gif" />
+    <EmbeddedResource Include="images\btnUltimoAtivo.png" />
+    <EmbeddedResource Include="images\btnUltimoInativo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="css\bubbletip.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\bubbletip-B-tail.png" />
+    <EmbeddedResource Include="images\bubbletip-B.png" />
+    <EmbeddedResource Include="images\bubbletip-BL-corner.png" />
+    <EmbeddedResource Include="images\bubbletip-BR-corner.png" />
+    <EmbeddedResource Include="css\bubbletip-IE.css" />
+    <EmbeddedResource Include="images\bubbletip-L-R.png" />
+    <EmbeddedResource Include="images\bubbletip-L-tail.png" />
+    <EmbeddedResource Include="images\bubbletip-L.png" />
+    <EmbeddedResource Include="images\bubbletip-R-tail.png" />
+    <EmbeddedResource Include="images\bubbletip-R.png" />
+    <EmbeddedResource Include="images\bubbletip-T-B.png" />
+    <EmbeddedResource Include="images\bubbletip-T-tail.png" />
+    <EmbeddedResource Include="images\bubbletip-T.png" />
+    <EmbeddedResource Include="images\bubbletip-TL-corner.png" />
+    <EmbeddedResource Include="images\bubbletip-TR-corner.png" />
+    <EmbeddedResource Include="images\bubbletip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="script\geral-after.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="script\jquery-1.9.1.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="script\jquery-ui.js" />
+    <EmbeddedResource Include="script\jQuery.bubbletip-1.0.6.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="css\flexigrid.css" />
+    <EmbeddedResource Include="images\line.gif" />
+    <EmbeddedResource Include="images\animated-overlay.gif" />
+    <EmbeddedResource Include="images\bg.gif" />
+    <EmbeddedResource Include="images\btn-sprite.gif" />
+    <EmbeddedResource Include="images\ddn.png" />
+    <EmbeddedResource Include="images\dn.png" />
+    <EmbeddedResource Include="images\fhbg.gif" />
+    <EmbeddedResource Include="images\first.gif" />
+    <EmbeddedResource Include="images\hl.png" />
+    <EmbeddedResource Include="images\last.gif" />
+    <EmbeddedResource Include="images\load.gif" />
+    <EmbeddedResource Include="images\load.png" />
+    <EmbeddedResource Include="images\magnifier.png" />
+    <EmbeddedResource Include="images\next.gif" />
+    <EmbeddedResource Include="images\prev.gif" />
+    <EmbeddedResource Include="images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <EmbeddedResource Include="images\ui-bg_flat_75_ffffff_40x100.png" />
+    <EmbeddedResource Include="images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <EmbeddedResource Include="images\ui-bg_glass_65_ffffff_1x400.png" />
+    <EmbeddedResource Include="images\ui-bg_glass_75_dadada_1x400.png" />
+    <EmbeddedResource Include="images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <EmbeddedResource Include="images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <EmbeddedResource Include="images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <EmbeddedResource Include="images\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="images\ui-icons_2e83ff_256x240.png" />
+    <EmbeddedResource Include="images\ui-icons_454545_256x240.png" />
+    <EmbeddedResource Include="images\ui-icons_888888_256x240.png" />
+    <EmbeddedResource Include="images\ui-icons_cd0a0a_256x240.png" />
+    <EmbeddedResource Include="images\up.png" />
+    <EmbeddedResource Include="images\uup.png" />
+    <EmbeddedResource Include="images\wbg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="script\flexigrid.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="css\jquery-ui.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\calendar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="script\jquery.price-format.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,322 @@
+﻿.FieldArea
+{
+	position:relative;
+	float:left;
+	width:925px;
+	clear:both;
+	text-align:left;
+	padding-bottom:0px; 
+	margin-bottom:5px;
+}
+
+.CheckBoxCaption, 
+.FieldCaption
+{
+	display: block; 
+	color: #555555;
+	position:relative; 
+	float:left;
+	padding-right: 5px;
+	text-align: right;
+	width: 170px;
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.FieldCaption
+{
+	padding-top:5px;
+}
+
+.FieldValue
+{
+	position:relative;
+	float:left;
+	width:150px;
+	padding: 4px 6px;
+	font-size: 11px;
+	line-height: 16px;
+	color: #555555;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.FieldText, 
+.FieldValueRead
+{
+	position:relative;
+	float:left; 
+	width:150px; 
+	color: #898989;
+}
+
+.CheckBoxValue
+{
+	float:right; 
+	margin-left:6px;
+	border:0px;
+}
+
+.FieldArea
+{
+	width:auto;
+	cursor:pointer !important;
+}
+
+.CheckBoxList,
+.RadioButtonList
+{
+	position:relative;
+	float:left; 
+	width:auto !important; 
+	color: #898989;
+}
+
+.CheckBoxList tbody tr td,
+.RadioButtonList tbody tr td
+{
+	margin-right:3px;
+}
+
+.CheckBoxList tbody tr td input,
+.RadioButtonList tbody tr td input
+{
+	position:relative; 
+	float:left;
+}
+
+.CheckBoxList tbody tr td label,
+.RadioButtonList tbody tr td label
+{
+	position:relative; 
+	float:left; 
+	color: #555555;
+	height:23px;
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;;
+	font-size: 11px;
+	line-height:20px;
+}
+.FieldOptionValue{}
+
+.FieldArea .FieldOptionValue input[type=checkbox]
+{
+	margin-top:10px;
+}
+
+.imgInvalid
+{
+	padding-left:3px;
+    position:relative;
+    top:3px;	
+    margin-top:5px;
+}
+
+/* Css grid */
+
+.PanelPaginacao
+{
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;;
+	background: url('<%=WebResource("Web.Controls.Components.images.wbg.gif")%>') repeat-x 0 -1px;
+	border: 1px solid #ccc;
+	border-top: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+.PanelPaginacao .PanelControles
+{
+	float:left;
+	width:50%;
+	margin-top:2px;
+	
+}
+.PanelPaginacao .PanelInfo
+{
+	float:right;
+	width:40%;
+	text-align:right;
+	font-size:11px;
+	margin-top:5px;
+	padding-right:2px;
+
+}
+
+.PaginacaoFieldValue
+{
+	font-size:11px;
+	color:#000;
+	border-bottom:solid 1px #808080;
+	border-left:solid 1px #000;
+	border-right:solid 1px #808080;
+	border-top:solid 1px #000;
+	width:30px;
+}
+
+.BotaoPrimeiroAtivo,
+.BotaoPrimeiroInativo,
+.BotaoAnteriorAtivo,
+.BotaoAnteriorInativo,
+.BotaoProximoAtivo,
+.BotaoProximoInativo,
+.BotaoUltimoAtivo,
+.BotaoUltimoInativo,
+.BotaoAtualizar
+ {
+	display: block;
+	height:20px;
+	width:20px;
+	float:left;
+	
+}
+
+.BotaoPrimeiroAtivo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnAnteriorAtivo.gif")%>') no-repeat 4px 4px;
+}
+
+.BotaoPrimeiroInativo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnPrimeiroInativo.png")%>') no-repeat 4px 4px;
+}
+
+.BotaoAnteriorAtivo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnAnteriorAtivo.png")%>') no-repeat 4px 4px;
+}
+
+.BotaoAnteriorInativo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnAnteriorInativo.png")%>') no-repeat 4px 4px;
+}
+
+.BotaoProximoAtivo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnProximoAtivo.png")%>') no-repeat 4px 4px;
+}
+
+.BotaoProximoInativo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnProximoInativo.gif")%>') no-repeat 4px 4px;
+}
+
+.BotaoUltimoAtivo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnUltimoAtivo.png")%>') no-repeat 4px 4px;
+}
+
+.BotaoUltimoInativo
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnUltimoInativo.gif")%>') no-repeat 4px 4px;
+}
+
+.BotaoAtualizar
+{
+	background: url('<%=WebResource("Web.Controls.Components.images.btnAtualizar.gif")%>') no-repeat 4px 4px;
+}
+
+
+.BotaoPrimeiroAtivo span,
+.BotaoPrimeiroInativo span,
+.BotaoAnteriorAtivo span,
+.BotaoAnteriorInativo span,
+.BotaoProximoAtivo span,
+.BotaoProximoInativo span,
+.BotaoUltimoAtivo span,
+.BotaoUltimoInativo span,
+.BotaoAtualizar span{
+	display:none;
+}
+
+.BotaoGridAtivo,
+.BotaoGridInativo,
+.BotaoGridEditar,
+.BotaoGridSalvar,
+.BotaoGridVisualizar,
+.BotaoGridExcluir {
+	display: block;
+	float: left;
+	margin: 0px 2px;
+	width:16px;
+	height:16px;
+}
+
+.PaginacaoFieldArea
+{
+	display: block;
+	float:left;
+}
+
+.PaginacaoFieldCaption
+{
+	font-size:11px;
+	margin:3px;
+}
+
+.form {
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 11px;
+	line-height: normal;
+	position: relative;
+	border: 1px solid #ccc !important;
+	overflow: hidden;
+	color: #000;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-bottom:5px;
+}
+
+.form div.titleForm 
+{
+	font-family: Arial,sans-serif/*{ffDefault}*/;
+	background: url('<%=WebResource("Web.Controls.Components.images.wbg.gif")%>') repeat-x top;
+	border: 0px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	font-size:13px;
+	padding: 6px;
+	white-space: nowrap;
+	margin-bottom:5px;
+}
+
+.divBotoes
+{
+	clear:left;
+	margin-left:170px;
+}
+
+.ui-datepicker
+{
+	font-size:12px !important;
+}
+
+.ui-datepicker-trigger
+{
+	margin-top:7px;
+	margin-left:5px;
+}
+
+.custom-tooltip-styling
+{
+	font-size:11px !important;	
+	border: 1px solid #cd0a0a !important;
+	background: #fef1ec url('<%=WebResource("Web.Controls.Components.images.ui-bg_glass_95_fef1ec_1x400.png")%>') 50% 50% repeat-x !important;
+	color: #cd0a0a !important;
+}
+
+.ui-widget, .bubbletip td.bt-content {
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 11px/*{fsDefault}*/;
+}
+
